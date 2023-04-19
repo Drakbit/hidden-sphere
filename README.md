@@ -6,7 +6,7 @@ Inspired by Forgotten Realms, Lost Omans, Tolkien, Warcraft, and many others, Hi
 
 Hidden Sphere is a Wiki created by me to assist in organizing the items and points of my setting and also to help me learn to code better.
 
-A prototype of this project is always online at www.drakbit.com
+A prototype of this project is always online at [Hidden Sphere Website](https://www.drakbits.com)
 
 # Frontend
 
