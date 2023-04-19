@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+    .sidenav {
+      width: 100%;
+    }
+    
+    .nav-list a {
+      font-size: 1.5em;
+      padding: 10px;
+    }
+    
+    .sidenav a i {
+      padding-right: 0;
+    }
+  }
+  

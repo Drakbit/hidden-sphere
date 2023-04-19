@@ -1,0 +1,130 @@
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+  .dropbtn{
+    margin-top: 200px;
+    padding-left: 10em;
+    background-color: transparent;
+    text-shadow: 3px 3px 8px #000000;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  
+  /* Add a red background color to navbar links on hover 
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(65, 89, 90);
+  }*/
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+/* Setinha */
+.dropdown a::before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent white transparent;
+}
+
+/* Setinha */
+.dropdown div::before{
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 50%;
+    margin-left: -10px;
+    border-style: solid;
+    border-width: 0 10px 10px 10px;
+    border-color: transparent transparent white transparent;
+}
+
+.dropdown-one {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-two {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    left: 160px;
+    top: 0px;
+    min-width: 160px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-one, #link1:hover > .dropdown-two {
+    display: block;
+  }
+  
+  .dropdown-one .dItem {
+      color: black;
+      padding: 12px 16px;
+      display: block;
+      text-align: left;
+  }
+  
+  .dropdown-one .dItem:hover, .dropdown-two a:hover {
+      background-color: #ddd;
+  }
+  
+  .container {
+    max-width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 10px auto 0 auto;
+  }

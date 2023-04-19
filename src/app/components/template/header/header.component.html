@@ -1,0 +1,75 @@
+<mat-toolbar class="header" appScroll>
+    <!-- mat-elevation-z4 -->
+    <span>
+        <a routerLink="/home" routerLinkActive="active">
+            <img class="logo" src="assets/img/logo-placeholder.png" alt="logo">
+        </a>
+    </span>
+
+    <span class="dropdown title-group">
+        <a class="dropbtn">
+            <i class="material-icons">home</i>
+            Explore
+            <i class="material-icons">expand_more</i>
+        </a>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </span>
+
+    <span class="title-group">
+        <ul class="dropdown">
+            <li><a>
+                <i class="material-icons">
+                    public
+                </i>
+                Mundo
+                <i class="material-icons">expand_more</i>
+            </a>
+                <ul>
+                    <li><a href="">Divindades</a>
+                        <ul>
+                            <li><a href="">Panteão Humano</a>
+                                <ul>
+                                    <li><a routerLink="/felor" routerLinkActive="active">Felor</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Panteão Elfico</a></li>
+                            <li><a href="#">Panteão Anão</a></li>
+                            <li><a href="">Panteão Gnômico</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Raças</a></li>
+                    <li><a href="">Cidades</a></li>
+                    <li><a href="#">Familias</a>
+                        <ul>
+                            <li><a href="#">Arredores da Tundra</a>
+                                <ul>
+                                    <li><a routerLink="/fougeres" routerLinkActive="active">Fougeres</a></li>
+                                    <li><a href="">Submenu - 2</a></li>
+                                    <li><a href="">Submenu - 3</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Submenu - 3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </span>
+
+
+
+    <span class="title-group">
+        <a>
+            <i class="material-icons">
+                person
+            </i>
+            About me
+        </a>
+    </span>
+
+
+</mat-toolbar>

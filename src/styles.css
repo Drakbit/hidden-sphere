@@ -1,1 +1,183 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red {
+    color: rgb(227,94,107);
+}
+
+.v-middle {
+    vertical-align: middle;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("assets/img/background-black.jpg");
+    background-repeat: repeat;
+  }
+
+/*body{
+    height: 120vh;
+    border: thin red solid;
+}*/
+
+.backgroundWhite {
+    background-color: white;
+}
+
+/* base das páginas da wiki */
+
+section {
+    margin: 1em 5vw 0em 5vw;
+    background-color: white;
+}
+
+.container {
+    margin: auto;
+    max-width: 800px;
+}
+
+.wrapper {
+    padding: 2em;
+}
+
+p {
+    line-height: 1.6;
+    font-family: Helvetica;
+    text-align: justify;
+    margin: 0;
+    font-size: 14px;
+}
+
+.shapeImageLeft {
+    float: left;
+    width: 30%;
+    max-width: 200px;
+    shape-outside: url(assets/img/placeholderpic.png);
+    shape-margin: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.shapeImageRight {
+    width: 30%;
+    max-width: 200px;
+    float: right;
+    shape-outside: url(assets/img/placeholderpic.png);
+    shape-margin: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.box {
+    margin: 2em;
+    margin-left: 2em;
+    margin-bottom: 10px;
+    float: right;
+    width: 100%;
+    max-width: 22em;
+    border: 3px solid black;
+    padding: 10px;
+    background-color: white;
+    shape-outside: margin-box;
+    shape-margin: 20px;
+}
+
+
+@media screen and (max-width: 480px) {
+    .box {
+        width: 80%;
+        max-width: none;
+        float: none;
+        margin: 2em auto;
+    }
+}
+
+
+.styleBoxNome {
+    background-color: cyan;
+    font-weight: bold;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.styleBoxInfo {
+    background-color: rgb(37, 150, 190);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.styleBoxEstatisticas {
+    background-color: rgb(37, 150, 190);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.styleBoxTwoColumns {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    grid-gap: 1.1em;
+}
+
+.spaceAbove {
+    margin-top: 1em;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+/* .boxImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+} */
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+    .boxImage {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* For screens larger than 600px */
+@media (min-width: 601px) {
+    .boxImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* or object-fit: contain; */
+    }
+}
+
+
+.textH1 {
+    font-size: 2.1em;
+}
+
+.textH2 {
+    font-size: 1.7em;
+    margin-bottom: 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgb(40, 226, 211);
+    margin: 1px 0px 1em 0px;
+}
+
+.textAlignLeft {
+    text-align: left;
+}
