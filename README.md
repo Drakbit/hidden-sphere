@@ -1,6 +1,15 @@
+# hidden-sphere-rpg
+
+Hidden Sphere, or Esfera Escondida in Brazilian Portuguese, is the name given to my own Medieval Fantasy RPG setting.
+
+Inspired by Forgotten Realms, Lost Omans, Tolkien, Warcraft, and many others, Hidden Sphere brings a detailed world to support RPG campaigns, preferably using the Pathfinder 2 or D&D 5e systems.
+
+Hidden Sphere is a Wiki created by me to assist in organizing the items and points of my setting and also to help me learn to code better.
+
 # Frontend
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+Im using HTML, CSS and some JS.
 
 ## Development server
 
